@@ -141,7 +141,7 @@ export default function Home() {
                 : "Ask about my experience..."
             }
             disabled={loading || ended}
-            className="flex-1 min-w-0 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-zinc-600 disabled:opacity-50"
+            className="flex-1 min-w-0 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 text-base focus:outline-none focus:border-zinc-600 disabled:opacity-50"
           />
           <button
             type="submit"
