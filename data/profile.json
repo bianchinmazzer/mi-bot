@@ -1,0 +1,168 @@
+{
+  "personal": {
+    "name": "Matias Bianchin Mazzer",
+    "headline": "Frontend Engineer & AI Developer | Next.js, TypeScript, Tailwind",
+    "location": "Bahía Blanca, Buenos Aires, Argentina",
+    "open_to_relocation": true,
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "English", "level": "Advanced (bilingual school, Cambridge IGCSE)" },
+      { "name": "Italian", "level": "Basic" }
+    ]
+  },
+  "summary": "Frontend Engineer with 4+ years of experience specialized in Next.js, TypeScript, and Tailwind CSS. Currently expanding into AI development through Anthropic's official courses, building production-grade integrations with the Claude API. Has delivered numerous projects including full-stack work covering frontend, backend APIs, authentication, and database design.",
+  "experience": [
+    {
+      "company": "Wirall",
+      "role": "Frontend Engineer / Full-stack Contributor",
+      "period": "Apr 2022 – Present",
+      "description": "Software consultancy where I work as a Frontend Engineer, delivering custom solutions across multiple client projects.",
+      "clients": [
+        {
+          "name": "MasColectividad",
+          "period": "Sep 2025 – Present",
+          "highlights": [
+            "Built and delivered a production SPA supporting multi-role permissions (admin, editor, viewer) and 6+ CRUD modules.",
+            "Developed scalable frontend modules with API integrations and reusable component architecture.",
+            "Used AI-assisted development workflows (Claude Code) to accelerate implementation, prototyping, and debugging.",
+            "Owned end-to-end QA across web and mobile, identifying 30+ critical defects before release."
+          ]
+        },
+        {
+          "name": "Wirall.com",
+          "period": "Nov 2025 – Dec 2025",
+          "highlights": [
+            "Developed the consulting firm's marketing landing page from scratch based on Figma designs.",
+            "Delivered pixel-perfect implementation across mobile, tablet, and desktop breakpoints."
+          ]
+        },
+        {
+          "name": "Surx",
+          "period": "Oct 2025 – Nov 2025",
+          "highlights": [
+            "Built a new responsive landing page from Figma using Next.js, TypeScript, and Tailwind CSS.",
+            "Owned full frontend implementation and deployment."
+          ]
+        },
+        {
+          "name": "MediaInbox",
+          "period": "Sep 2025 – Oct 2025",
+          "highlights": [
+            "Redesigned key product views from Figma specs, simplifying workflows and reducing friction in core user journeys.",
+            "Delivered frontend UI improvements with strong attention to usability and visual consistency."
+          ]
+        },
+        {
+          "name": "DALT Importaciones",
+          "period": "Aug 2025 – Sep 2025",
+          "highlights": [
+            "Designed and built an e-commerce platform end-to-end as sole developer, covering UX/UI, frontend, backend APIs, authentication, database design, and deployment.",
+            "Built frontend with Next.js, TypeScript, and Tailwind CSS; integrated Supabase (Auth, PostgreSQL, Storage) and Node.js backend services."
+          ]
+        },
+        {
+          "name": "Ligo Peru",
+          "period": "Jan 2025 – Aug 2025",
+          "highlights": [
+            "Consolidated 5 legacy systems into a single Next.js / TypeScript application, improving consistency and reducing operational overhead.",
+            "Built scalable API consumption patterns and modular frontend architecture for multi-domain product features.",
+            "Worked with QA automation workflows using Playwright and NestJS-based backend services.",
+            "Contributed to CI/CD workflows using Jenkins, Kubernetes, and GCP.",
+            "Participated in frontend technical interviews and engineering hiring decisions."
+          ]
+        },
+        {
+          "name": "Levara",
+          "period": "Nov 2024 – Jan 2025",
+          "highlights": [
+            "Delivered a responsive React SPA with Context-based state management and REST API integration in under 3 months.",
+            "Implemented mobile-first responsive design using CSS and Bootstrap, ensuring consistent UX across 4 breakpoints and cross-browser QA."
+          ]
+        },
+        {
+          "name": "Internal Automation & Integrations",
+          "period": "Oct 2024 – Nov 2024",
+          "highlights": [
+            "Built Node.js automation services integrating MercadoLibre APIs, OAuth authentication, AFIP electronic invoicing, and PDF generation.",
+            "Automated previously manual operational workflows, significantly reducing repetitive workload and operational friction.",
+            "Developed Python-based automation / scraping pipelines for client business workflows."
+          ]
+        },
+        {
+          "name": "No Letting Go",
+          "period": "Apr 2022 – Oct 2024",
+          "highlights": [
+            "Built and maintained production frontend features using React, jQuery, SCSS, and Django templates, contributing to 15+ production releases.",
+            "Created and executed 200+ manual test cases across web and mobile (iOS / Android), improving release confidence and reducing escaped defects.",
+            "Collaborated with automation teams reviewing Selenium and Playwright regression suites across platforms and browsers.",
+            "Stepped in as Acting Project Manager during team transition, coordinating sprint planning, delivery, and client communication."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Coderhouse",
+      "role": "Dev Teaching Assistant (Remote)",
+      "period": "2023 – 2024",
+      "highlights": [
+        "Assisted instructors in backend (Node.js, MongoDB, Express) and frontend (React) bootcamp cohorts.",
+        "Supported students with code reviews, debugging sessions, and project feedback during live classes.",
+        "Strengthened communication and mentoring skills by explaining technical concepts to developers at different experience levels."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Portfolio Bot",
+      "description": "This very chatbot — a digital twin built with the Claude API and Google Calendar integration, allowing recruiters to learn about my background and book meetings directly through conversation.",
+      "stack": ["Next.js", "TypeScript", "Tailwind", "Claude API", "Google Calendar API"],
+      "url": null
+    },
+    {
+      "name": "Landing pages portfolio",
+      "description": "Several production landing pages built from Figma designs, delivered pixel-perfect across all breakpoints.",
+      "stack": ["Next.js", "TypeScript", "Tailwind"],
+      "url": null
+    }
+  ],
+  "skills": {
+    "primary": ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+    "backend": ["Node.js", "Supabase", "PostgreSQL", "REST APIs"],
+    "ai": ["Claude API", "AI-assisted development (Claude Code)", "Prompt engineering"],
+    "testing_qa": ["Playwright", "Selenium", "Manual QA"],
+    "devops": ["Jenkins", "Kubernetes", "GCP", "CI/CD"],
+    "other": ["Figma to code", "OAuth", "Git"]
+  },
+  "education": [
+    {
+      "title": "Licenciatura en Administración",
+      "type": "University degree",
+      "status": "Completed"
+    },
+    {
+      "title": "Full Stack Developer",
+      "type": "Professional certification",
+      "status": "Completed"
+    },
+    {
+      "title": "Cambridge IGCSE",
+      "type": "Secondary school international qualification",
+      "status": "Completed"
+    }
+  ],
+  "preferences": {
+    "open_to_work": true,
+    "preferred_modality": ["remote"],
+    "open_to_relocation": true,
+    "interests": [
+      "Frontend roles with Next.js/React stack",
+      "AI integration projects",
+      "Full-stack opportunities"
+    ]
+  },
+  "personal_interests": [
+    "Surfing",
+    "Snowboarding",
+    "Camping and outdoor activities"
+  ]
+}
