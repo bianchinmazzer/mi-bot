@@ -82,7 +82,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-zinc-950 text-zinc-100">
+    <div className="flex flex-col bg-zinc-950 text-zinc-100" style={{ height: "100dvh" }}>
       <header className="border-b border-zinc-800 px-6 py-4">
         <h1 className="text-lg font-semibold">Matias Bianchin Mazzer</h1>
         <p className="text-xs text-zinc-400">
@@ -141,7 +141,7 @@ export default function Home() {
                 : "Ask about my experience or schedule a meeting..."
             }
             disabled={loading || ended}
-            className="flex-1 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-zinc-600 disabled:opacity-50"
+            className="flex-1 min-w-0 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-zinc-600 disabled:opacity-50"
           />
           <button
             type="submit"
