@@ -82,7 +82,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col bg-zinc-950 text-zinc-100" style={{ height: "100dvh" }}>
+    <div className="flex flex-col w-full bg-zinc-950 text-zinc-100" style={{ height: "100dvh", maxWidth: "100vw" }}>
       <header className="border-b border-zinc-800 px-6 py-4">
         <h1 className="text-lg font-semibold">Matias Bianchin Mazzer</h1>
         <p className="text-xs text-zinc-400">
@@ -128,9 +128,9 @@ export default function Home() {
 
       <form
         onSubmit={handleSubmit}
-        className="border-t border-zinc-800 px-4 py-4 bg-zinc-950"
+        className="border-t border-zinc-800 px-4 py-4 bg-zinc-950 w-full"
       >
-        <div className="max-w-2xl mx-auto flex gap-2">
+        <div className="max-w-2xl mx-auto flex gap-2 w-full overflow-hidden">
           <input
             type="text"
             value={input}
@@ -138,7 +138,7 @@ export default function Home() {
             placeholder={
               ended
                 ? "Conversation ended — refresh to start over"
-                : "Ask about my experience or schedule a meeting..."
+                : "Ask about my experience..."
             }
             disabled={loading || ended}
             className="flex-1 min-w-0 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-zinc-600 disabled:opacity-50"
@@ -146,7 +146,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={loading || !input.trim() || ended}
-            className="bg-blue-600 hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2 text-sm font-medium"
+            className="flex-none bg-blue-600 hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg px-4 py-2 text-sm font-medium"
           >
             Send
           </button>
