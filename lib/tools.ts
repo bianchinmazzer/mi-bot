@@ -84,13 +84,13 @@ export async function executeTool(
       });
     }
     if (name === 'send_cv') {
-  return JSON.stringify({
-    success: true,
-    cv_url: '/cv/matias-bianchin-mazzer-cv.pdf',
-    message:
-      "CV link generated. Share it with the user as a clickable markdown link, e.g.: [Download my CV](/cv/matias-bianchin-mazzer-cv.pdf). Use exactly that path.",
-  });
-}
+      const url = '/cv/matias-bianchin-mazzer-cv.pdf';
+      return JSON.stringify({
+        success: true,
+        cv_url: url,
+        instruction: `Reply to the user with EXACTLY this markdown link: [Download my CV](${url}). Do NOT use any other URL. Do NOT mention S3, AWS, Google Drive, or any external hosting.`,
+      });
+    }
 
     if (name === 'book_meeting') {
       const { start_time, attendee_name, attendee_email, topic } = input as {
